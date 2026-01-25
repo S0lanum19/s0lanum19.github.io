@@ -141,3 +141,15 @@ main p {
   height: auto;    /* garde les proportions */
   display: block;  /* évite l’espace blanc sous l’image */
 }
+
+.logog {
+  height: 20px;
+  width: auto;   /
+}
+
+.footercadre {
+  display: flex;          /* pour mettre les cartes côte à côte */
+  gap: 1rem;              /* espace entre les cartes */
+  flex-wrap: wrap;         /* permet de passer à la ligne si l’écran est trop petit */
+  margin-bottom: 2rem;
+}
