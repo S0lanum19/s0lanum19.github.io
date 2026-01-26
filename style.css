@@ -74,6 +74,11 @@ header h1 {
   font-size: 2.5rem;
 }
 
+header img {
+  width: 180px;
+  height: auto;
+}
+
 /* Main */
 main {
   max-width: 800px;
@@ -152,4 +157,83 @@ main p {
   gap: 1rem;              /* espace entre les cartes */
   flex-wrap: wrap;         /* permet de passer à la ligne si l’écran est trop petit */
   margin-bottom: 2rem;
+}
+
+
+
+
+
+.badgebar {
+  max-height: 150px; 
+  min-height: 273px;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #7b1e1e rgba(0, 0, 0, 0.1);
+
+  float : right; 
+  width: 200px;
+
+  border: 1px solid black;
+  padding: 1.5rem;
+  margin-bottom: 6px;
+  display: flex;     
+  gap: 1rem;       
+  flex-wrap: wrap;   
+}
+
+
+.badgebar p {
+  margin-bottom: 0.3rem;
+}
+
+.badgebar img {
+  width: 80px;
+  height: auto;
+}
+
+
+.blinkies {
+  display: flex;
+  max-height: 150px; 
+  max-height: 273px;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #7b1e1e rgba(0, 0, 0, 0.1);
+
+  float : right; 
+  width: 200px;
+
+  border: 1px solid black;
+  padding: 1.5rem;
+  margin-bottom: 6px;
+  display: flex;     
+  gap: 6px;       
+  flex-wrap: wrap;   
+}
+
+
+.blinkies p {
+  margin-bottom: 0.3rem;
+}
+
+.blinkies img {
+  width: 150px;
+  height: auto;
+}
+
+
+.introme {
+  display: flex;
+  gap: 12px;
+}
+
+
+.cotcot {
+  display: flex;
+  
+}
+
+.resizebutton img {
+  width: 285px;
+  height: auto;
 }
