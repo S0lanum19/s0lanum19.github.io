@@ -227,6 +227,15 @@ main p {
   gap: 12px;
 }
 
+.linkseader {
+  display: flex;
+  gap: 6px;
+}
+
+.linksheader img {
+  width: 100px;
+  height: auto;
+}
 
 .cotcot {
   display: flex;
