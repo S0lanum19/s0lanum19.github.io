@@ -2,13 +2,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // ===== 1️⃣ Playlist =====
   var tracks = [
-    { title: "1. OH MY GAAÆÆÆÆ", src: "audio/ohmygah.wav" },
-    { title: "2. Polyoushka Polie", src: "audio/polioucka polie t4.wav" },
-    { title: "3. Breakcore unfinished song", src: "audio/breakcore2 t2.wav" },
-    { title: "4. ( ˶°ㅁ°) !!", src: "audio/BRKCR3.wav" },
+    { title: "1. OH MY GAAÆÆÆÆ", src: "audio/ohmygah.mp3" },
+    { title: "2. Polyoushka Polie", src: "audio/polioucka-polie-t4.mp3" },
+    { title: "3. Breakcore unfinished song", src: "audio/breakcore2-t2.mp3" },
+    { title: "4. ( ˶°ㅁ°) !!", src: "audio/BRKCR3.mp3" },
     { title: "5. Staccato", src: "audio/5. Staccato.mp3" },
-    { title: "6. Omori", src: "audio/6 - Omori - Omori.wav" },
-    { title: "7. 1860", src: "audio/1860 Lofificator.wav" }
+    { title: "6. Omori", src: "audio/6-Omori-Omori(1).mp3" },
+    { title: "7. 1860", src: "audio/1860-Lofificator.mp3" }
   ];
 
   var currentTrack = 0;
