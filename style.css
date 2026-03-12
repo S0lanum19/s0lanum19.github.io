@@ -354,3 +354,37 @@ main p {
   width: 25rem;
   height: auto;
 }
+
+
+.blinkieshrine {
+  display: flex;     
+  gap: 4px;     
+  
+  border: 1px solid;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #7b1e1e rgba(0, 0, 0, 0.1);
+  
+}
+
+.blinkieshrine a{
+  margin: 2px auto;
+}
+
+.blinkieshrine img{
+  width: 10rem;
+  height: auto;
+}
+
+.shrinemain{
+  border: 4px solid;
+  margin: 2px;
+  border-color: #C21010;
+  display: flex;
+  gap: 4px;
+}
+
+.shrinemain img{
+  width: 14rem;
+  height: auto;
+}
